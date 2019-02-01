@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		04903D3F220227AA00CCB000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903D3E220227AA00CCB000 /* AppDelegate.swift */; };
-		04903D41220227AA00CCB000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903D40220227AA00CCB000 /* ViewController.swift */; };
 		04903D44220227AA00CCB000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04903D42220227AA00CCB000 /* Main.storyboard */; };
 		04903D46220227AC00CCB000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04903D45220227AC00CCB000 /* Assets.xcassets */; };
 		04903D49220227AC00CCB000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04903D47220227AC00CCB000 /* LaunchScreen.storyboard */; };
+		04903D5122022DD700CCB000 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903D5022022DD700CCB000 /* Expense.swift */; };
+		04903D5322022ED200CCB000 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903D5222022ED200CCB000 /* ExpensesViewController.swift */; };
+		04903D552202380500CCB000 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903D542202380500CCB000 /* ExpenseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04903D3B220227AA00CCB000 /* Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04903D3E220227AA00CCB000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04903D40220227AA00CCB000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04903D43220227AA00CCB000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04903D45220227AC00CCB000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04903D48220227AC00CCB000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04903D4A220227AC00CCB000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04903D5022022DD700CCB000 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		04903D5222022ED200CCB000 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		04903D542202380500CCB000 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				04903D3E220227AA00CCB000 /* AppDelegate.swift */,
-				04903D40220227AA00CCB000 /* ViewController.swift */,
 				04903D42220227AA00CCB000 /* Main.storyboard */,
 				04903D45220227AC00CCB000 /* Assets.xcassets */,
 				04903D47220227AC00CCB000 /* LaunchScreen.storyboard */,
+				04903D5022022DD700CCB000 /* Expense.swift */,
 				04903D4A220227AC00CCB000 /* Info.plist */,
+				04903D5222022ED200CCB000 /* ExpensesViewController.swift */,
+				04903D542202380500CCB000 /* ExpenseTableViewCell.swift */,
 			);
 			path = Expenses;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04903D41220227AA00CCB000 /* ViewController.swift in Sources */,
+				04903D552202380500CCB000 /* ExpenseTableViewCell.swift in Sources */,
+				04903D5122022DD700CCB000 /* Expense.swift in Sources */,
 				04903D3F220227AA00CCB000 /* AppDelegate.swift in Sources */,
+				04903D5322022ED200CCB000 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
